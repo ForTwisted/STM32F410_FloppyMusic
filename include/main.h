@@ -43,6 +43,7 @@
 #include "stm32f4xx_hal.h"
 #include "stm32f4xx_nucleo.h"
 #include "functions.h"
+#include "song.h"
 #include "diag/Trace.h"
 
 /* Exported types ------------------------------------------------------------*/

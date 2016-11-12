@@ -1,6 +1,5 @@
-system/src/stm32f4xx/stm32f4xx_hal_dsi.o: \
- ../system/src/stm32f4xx/stm32f4xx_hal_dsi.c \
- ../system/include/stm32f4xx/stm32f4xx_hal.h \
+src/song.o: ../src/song.c ../include/music.h ../include/song.h \
+ ../include/main.h ../system/include/stm32f4xx/stm32f4xx_hal.h \
  ../include/stm32f4xx_hal_conf.h \
  ../system/include/stm32f4xx/stm32f4xx_hal_rcc.h \
  ../system/include/stm32f4xx/stm32f4xx_hal_def.h \
@@ -32,7 +31,15 @@ system/src/stm32f4xx/stm32f4xx_hal_dsi.o: \
  ../system/include/stm32f4xx/stm32f4xx_hal_uart.h \
  ../system/include/stm32f4xx/stm32f4xx_hal_dsi.h \
  ../system/include/stm32f4xx/stm32f4xx_hal_fmpi2c.h \
- ../system/include/stm32f4xx/stm32f4xx_hal_fmpi2c_ex.h
+ ../system/include/stm32f4xx/stm32f4xx_hal_fmpi2c_ex.h \
+ ../include/stm32f4xx_nucleo.h ../include/functions.h \
+ ../system/include/diag/Trace.h ../include/song.h
+
+../include/music.h:
+
+../include/song.h:
+
+../include/main.h:
 
 ../system/include/stm32f4xx/stm32f4xx_hal.h:
 
@@ -101,3 +108,11 @@ system/src/stm32f4xx/stm32f4xx_hal_dsi.o: \
 ../system/include/stm32f4xx/stm32f4xx_hal_fmpi2c.h:
 
 ../system/include/stm32f4xx/stm32f4xx_hal_fmpi2c_ex.h:
+
+../include/stm32f4xx_nucleo.h:
+
+../include/functions.h:
+
+../system/include/diag/Trace.h:
+
+../include/song.h:

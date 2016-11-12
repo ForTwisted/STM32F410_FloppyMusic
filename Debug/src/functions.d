@@ -26,12 +26,14 @@ src/functions.o: ../src/functions.c ../include/main.h \
  ../system/include/stm32f4xx/stm32f4xx_hal_pwr.h \
  ../system/include/stm32f4xx/stm32f4xx_hal_pwr_ex.h \
  ../system/include/stm32f4xx/stm32f4xx_hal_spi.h \
+ ../system/include/stm32f4xx/stm32f4xx_hal_tim.h \
+ ../system/include/stm32f4xx/stm32f4xx_hal_tim_ex.h \
  ../system/include/stm32f4xx/stm32f4xx_hal_uart.h \
  ../system/include/stm32f4xx/stm32f4xx_hal_dsi.h \
  ../system/include/stm32f4xx/stm32f4xx_hal_fmpi2c.h \
  ../system/include/stm32f4xx/stm32f4xx_hal_fmpi2c_ex.h \
- ../include/stm32f4xx_nucleo.h ../include/functions.h \
- ../system/include/diag/Trace.h
+ ../include/stm32f4xx_nucleo.h ../include/functions.h ../include/song.h \
+ ../include/main.h ../system/include/diag/Trace.h
 
 ../include/main.h:
 
@@ -91,6 +93,10 @@ src/functions.o: ../src/functions.c ../include/main.h \
 
 ../system/include/stm32f4xx/stm32f4xx_hal_spi.h:
 
+../system/include/stm32f4xx/stm32f4xx_hal_tim.h:
+
+../system/include/stm32f4xx/stm32f4xx_hal_tim_ex.h:
+
 ../system/include/stm32f4xx/stm32f4xx_hal_uart.h:
 
 ../system/include/stm32f4xx/stm32f4xx_hal_dsi.h:
@@ -102,5 +108,9 @@ src/functions.o: ../src/functions.c ../include/main.h \
 ../include/stm32f4xx_nucleo.h:
 
 ../include/functions.h:
+
+../include/song.h:
+
+../include/main.h:
 
 ../system/include/diag/Trace.h:

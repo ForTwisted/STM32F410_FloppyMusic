@@ -27,6 +27,8 @@ src/stm32f4xx_nucleo.o: ../src/stm32f4xx_nucleo.c \
  ../system/include/stm32f4xx/stm32f4xx_hal_pwr.h \
  ../system/include/stm32f4xx/stm32f4xx_hal_pwr_ex.h \
  ../system/include/stm32f4xx/stm32f4xx_hal_spi.h \
+ ../system/include/stm32f4xx/stm32f4xx_hal_tim.h \
+ ../system/include/stm32f4xx/stm32f4xx_hal_tim_ex.h \
  ../system/include/stm32f4xx/stm32f4xx_hal_uart.h \
  ../system/include/stm32f4xx/stm32f4xx_hal_dsi.h \
  ../system/include/stm32f4xx/stm32f4xx_hal_fmpi2c.h \
@@ -89,6 +91,10 @@ src/stm32f4xx_nucleo.o: ../src/stm32f4xx_nucleo.c \
 ../system/include/stm32f4xx/stm32f4xx_hal_pwr_ex.h:
 
 ../system/include/stm32f4xx/stm32f4xx_hal_spi.h:
+
+../system/include/stm32f4xx/stm32f4xx_hal_tim.h:
+
+../system/include/stm32f4xx/stm32f4xx_hal_tim_ex.h:
 
 ../system/include/stm32f4xx/stm32f4xx_hal_uart.h:
 

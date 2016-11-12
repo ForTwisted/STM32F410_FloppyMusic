@@ -6,18 +6,21 @@
 C_SRCS += \
 ../src/functions.c \
 ../src/main.c \
+../src/song.c \
 ../src/stm32f4xx_it.c \
 ../src/stm32f4xx_nucleo.c 
 
 OBJS += \
 ./src/functions.o \
 ./src/main.o \
+./src/song.o \
 ./src/stm32f4xx_it.o \
 ./src/stm32f4xx_nucleo.o 
 
 C_DEPS += \
 ./src/functions.d \
 ./src/main.d \
+./src/song.d \
 ./src/stm32f4xx_it.d \
 ./src/stm32f4xx_nucleo.d 
 
